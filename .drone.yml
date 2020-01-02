@@ -1,0 +1,9 @@
+publish:
+  docker:
+    username: $$USER
+    password: $$PASS
+    repo: $$USER/otrs
+    tag:
+      - latest
+    file: Dockerfile
+    
