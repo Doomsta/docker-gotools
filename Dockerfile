@@ -5,3 +5,6 @@ RUN go get -u gitlab.com/opennota/check/cmd/structcheck
 RUN go get -u gitlab.com/opennota/check/cmd/aligncheck
 RUN go get -u gitlab.com/opennota/check/cmd/varcheck
 RUN go get -u github.com/kisielk/errcheck
+
+RUN mkdir /working
+WORKDIR /working
