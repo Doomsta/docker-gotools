@@ -1,9 +1,11 @@
-publish:
-  docker:
+kind: pipeline
+name: default
+
+steps:
+- name: docker  
+  image: plugins/docker
+  settings:
     username: $$USER
     password: $$PASS
-    repo: $$USER/otrs
-    tag:
-      - latest
-    file: Dockerfile
-    
+    repo: arandel/gotools
+    tags: latest
