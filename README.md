@@ -1,5 +1,4 @@
 # gotools 
-[![Build Status](https://cloud.drone.io/api/badges/Doomsta/docker-gotools/status.svg)](https://cloud.drone.io/Doomsta/docker-gotools)
 
 # Installation
 ```sh
