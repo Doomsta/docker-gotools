@@ -12,7 +12,8 @@ RUN go get github.com/mgechev/revive \
   && go get github.com/msoap/go-carpet \
   && go get github.com/cweill/gotests/... \
   && go get github.com/360EntSecGroup-Skylar/goreporter \
-  && go get golang.org/x/tools/cmd/goimports
+  && go get golang.org/x/tools/cmd/goimports \
+  && go get github.com/jondot/goweight
 
 FROM alpine:latest
 RUN apk add --no-cache bash git openssh graphviz
